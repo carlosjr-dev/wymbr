@@ -1,0 +1,33 @@
+.navBar {
+  background: #461159;
+  display: flex;
+  justify-content: center;
+}
+.navBarContent {
+  display: flex;
+  width: 1140px;
+  height: 5vh;
+  padding-top: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuContent {
+  display: flex;
+}
+
+.menuContent li {
+  width: 33%;
+  display: inline;
+  margin-left: 30px;
+  color: #01e882;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.logo {
+  width: 33%;
+  cursor: pointer;
+}

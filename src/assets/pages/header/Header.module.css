@@ -1,0 +1,65 @@
+.headerModule {
+  background-image: url(/backg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #461159;
+  height: 95vh;
+  display: flex;
+}
+.headerContent {
+  width: 1140px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+.openBtn {
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.188rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 62499999744rem;
+  background: #02e683;
+  width: 198px;
+  height: 43px;
+}
+.openBtn p {
+  color: #461159;
+  text-align: center;
+  padding-top: 5%;
+}
+.hireBtn {
+  margin-top: 58px;
+  color: #461159;
+  width: 172px;
+  height: 43px;
+  font-size: 1.188rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 62499999744rem;
+  background: #a368aa;
+  border: none;
+}
+h1 {
+  color: #f4ecd5;
+  text-align: center;
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+h2 {
+  color: #f4ecd5;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
