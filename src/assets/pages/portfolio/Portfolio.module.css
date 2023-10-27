@@ -1,0 +1,9 @@
+.portfolioContent {
+  background-color: rgb(252, 252, 252);
+}
+.portfolioNav {
+  width: 1140px;
+  margin: 0 auto;
+  height: 10px;
+  background-color: rgb(241, 156, 8);
+}
