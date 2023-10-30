@@ -1,13 +1,15 @@
-import { MouseEvent, useRef } from "react";
+import { useRef } from "react";
 import { portfolio } from "../../hook/portfolio";
 
 import styles from "./Portfolio.module.css";
 
 function Portfolio() {
-  const carrossel = useRef<HTMLDivElement>(null);
+  const carrossel = useRef<HTMLDivElement | null>(null);
 
-  const handdleAdd = (e: MouseEvent) => {
-    carrossel.current.scrolLeft += 10;
+  const handdleAdd = () => {
+    if (carrossel.current) {
+      carrossel.current.scrollLeft += 7;
+    }
   };
   return (
     <>

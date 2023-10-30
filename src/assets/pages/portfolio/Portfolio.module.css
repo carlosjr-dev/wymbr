@@ -2,7 +2,13 @@
   display: flex;
   margin-top: 100px;
   align-content: flex-end;
+  overflow-x: scroll;
 }
+
+.portfolioNav::-webkit-scrollbar {
+  visibility: hidden;
+}
+
 .textAndIcon {
   width: 100%;
 }
