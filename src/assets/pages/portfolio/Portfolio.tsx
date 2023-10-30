@@ -1,16 +1,25 @@
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 import { portfolio } from "../../hook/portfolio";
 
 import styles from "./Portfolio.module.css";
 
 function Portfolio() {
   const carrossel = useRef<HTMLDivElement | null>(null);
+  const [carrosselNumberAdd, setCarrosselNumberAdd] = useState<number>(0);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setCarrosselNumberAdd(carrosselNumberAdd + 1);
+      handdleAdd();
+    }, 120);
+  });
 
   const handdleAdd = () => {
     if (carrossel.current) {
-      carrossel.current.scrollLeft += 7;
+      carrossel.current.scrollLeft += carrosselNumberAdd;
     }
   };
+
   return (
     <>
       <section className={styles.portfolioContent}>

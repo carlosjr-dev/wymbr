@@ -6,7 +6,7 @@
 }
 
 .portfolioNav::-webkit-scrollbar {
-  visibility: hidden;
+  display: none;
 }
 
 .textAndIcon {
