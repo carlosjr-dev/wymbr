@@ -1,9 +1,11 @@
-.portfolioContent {
-  background-color: rgb(252, 252, 252);
-}
 .portfolioNav {
-  width: 1140px;
-  margin: 0 auto;
-  height: 10px;
-  background-color: rgb(241, 156, 8);
+  display: flex;
+  margin-top: 100px;
+  align-content: flex-end;
+}
+.textAndIcon {
+  width: 100%;
+}
+.test {
+  display: flex;
 }
